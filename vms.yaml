@@ -1,6 +1,7 @@
 ---
   - name: "Playing with Ansible."
 # Ansible Playbook will run on the 172.21.127.174 where AWX is installed
+    hosts: all
     connection: ssh
     
     tasks:
